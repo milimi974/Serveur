@@ -1,0 +1,65 @@
+{
+  "name": "lesson_participation",
+  "plural": "lesson_participations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_lesson": {
+      "type": "number",
+      "required": true
+    },
+    "id_student": {
+      "type": "number",
+      "required": true
+    },
+    "stage": {
+      "type": "number",
+      "default": 0
+    },
+    "grade": {
+      "type": "number"
+    },
+    "enrollment_date": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "lesson": {
+      "type": "belongsTo",
+      "model": "lesson",
+      "foreignKey": "id_lesson"
+    },
+    "participant": {
+      "type": "belongsTo",
+      "model": "poem_user",
+      "foreignKey": "id_student"
+    },
+    "asked_questions": {
+      "type": "hasAndBelongsToMany",
+      "model": "question",
+      "foreignKey": ""
+    },
+    "submitted_answers": {
+      "type": "hasMany",
+      "model": "submitted_answer",
+      "foreignKey": ""
+    },
+    "proposed_question": {
+      "type": "hasOne",
+      "model": "question",
+      "foreignKey": ""
+    },
+    "evaluated_answers": {
+      "type": "hasAndBelongsToMany",
+      "model": "submitted_answer",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

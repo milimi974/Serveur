@@ -1,0 +1,109 @@
+{
+  "name": "lesson",
+  "plural": "lessons",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "english_title": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "default": "en"
+    },
+    "is_private": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_published": {
+      "type": "boolean",
+      "default": true
+    },
+    "date": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "summary": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "appendix": {
+      "type": "string",
+      "default": ""
+    },
+    "word_to_students": {
+      "type": "string",
+      "default": ""
+    },
+    "enriched_content_allowed": {
+      "type": "boolean",
+      "default": false
+    },
+    "estimated_duration": {
+      "type": "number"
+    },
+    "elo_level": {
+      "type": "number"
+    },
+    "question_value": {
+      "type": "number",
+      "default": "1"
+    },
+    "id_course_material": {
+      "type": "number"
+    },
+    "id_thumbnail": {
+      "type": "number",
+      "required": false
+    },
+    "id_speciality": {
+      "type": "number",
+      "required": true
+    },
+    "id_author": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "questions": {
+      "type": "hasMany",
+      "model": "question",
+      "foreignKey": "id_lesson"
+    },
+    "speciality": {
+      "type": "belongsTo",
+      "model": "speciality",
+      "foreignKey": "id_speciality"
+    },
+    "submitted_answers": {
+      "type": "hasMany",
+      "model": "submitted_answer",
+      "foreignKey": ""
+    },
+    "course_material": {
+      "type": "hasOne",
+      "model": "ressource",
+      "foreignKey": "id_course_material"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,183 @@
+{
+  "name": "poem_user",
+  "plural": "poem_users",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "surname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "favoured_langage_display": {
+      "type": "string",
+      "default": "en"
+    },
+    "favoured_langage_content": {
+      "type": "string",
+      "default": "en"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "lessonsParticipations": {
+      "type": "hasMany",
+      "model": "lesson_participation",
+      "foreignKey": "id_student"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "ALLOW",
+      "property": "loginViaCSDC"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "ALLOW",
+      "property": "registerViaCSDC"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "__get__lessonsParticipations"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "__create__lessonsParticipations"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "__updateById__lessonsParticipations"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "__count__lessonsParticipations"
+    }
+  ],
+  "methods": {
+    "loginViaCSDC": {
+      "isStatic": true,
+      "accepts": [
+        {
+          "arg": "email",
+          "type": "string",
+          "required": true,
+          "description": "The user identifier"
+        },
+        {
+          "arg": "password",
+          "type": "string",
+          "required": true,
+          "description": "The user password"
+        }
+      ],
+      "returns": [
+        {
+          "arg": "token_user",
+          "type": "object",
+          "root": true,
+          "description": "The token generated for this session, plus the poem_user concerned."
+        }
+      ],
+      "description": "Check the credentials on the CSDC databases, then create a token",
+      "http": [
+        {
+          "path": "/loginViaCSDC",
+          "verb": "post"
+        }
+      ]
+    },
+    "registerViaCSDC": {
+      "isStatic": true,
+      "accepts": [
+        {
+          "arg": "email",
+          "type": "string",
+          "required": true,
+          "description": "The user identifier"
+        },
+        {
+          "arg": "username",
+          "type": "string",
+          "required": false,
+          "description": "The user nickname"
+        },
+        {
+          "arg": "name",
+          "type": "string",
+          "required": true,
+          "description": "The user first name"
+        },
+        {
+          "arg": "surname",
+          "type": "string",
+          "required": true,
+          "description": "The user last name"
+        },
+        {
+          "arg": "favoured_langage_display",
+          "type": "string",
+          "required": false,
+          "description": "The language used to present the interface of the application"
+        },
+        {
+          "arg": "favoured_langage_content",
+          "type": "string",
+          "required": false,
+          "description": "The language used to default filter lessons"
+        },
+        {
+          "arg": "password",
+          "type": "string",
+          "required": true,
+          "description": "The user password"
+        }
+      ],
+      "returns": [
+        {
+          "arg": "token_user",
+          "type": "string",
+          "root": true,
+          "description": "An access token, plus some data about the user."
+        }
+      ],
+      "description": "Create a new user on CSDC database, then on the localDatabase",
+      "http": [
+        {
+          "path": "/registerViaCSDC",
+          "verb": "post"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,582 @@
+[
+    {
+        "id_pedagogic_item": 46,
+        "cip_speciality": 51.2699,
+        "label": "Évaluation Formative 1",
+        "description": "U1 Aide Soignant(e) M2 IMFS Belfort / Eval 1",
+        "ELO": 732.53,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODNkpaYkVoWnkwODA/preview"
+    },
+    {
+        "id_pedagogic_item": 47,
+        "cip_speciality": 51.2699,
+        "label": "Évaluation Formative 1",
+        "description": "U1 Aide Soignant(e) M2 IMFS Montbéliard / Eval 1",
+        "ELO": 777.7,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODVDJubjFmVEx5TFE/preview"
+    },
+    {
+        "id_pedagogic_item": 58,
+        "cip_speciality": 51.2699,
+        "label": "Locomotion et Respiration",
+        "description": "U1 Aide Soignant(e) M2 IMFS Belfort / Eval 2",
+        "ELO": 723.8,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODaXRnLWw1c3I2UTQ/preview"
+    },
+    {
+        "id_pedagogic_item": 59,
+        "cip_speciality": 51.2699,
+        "label": "Système nerveux, Locomotion et Respiration",
+        "description": "U1 Aide Soignant(e) M2 IMFS Montbéliard / Eval 2",
+        "ELO": 925.62,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODXzhOSnJjOERnQ2M/preview"
+    },
+    {
+        "id_pedagogic_item": 62,
+        "cip_speciality": 51.2699,
+        "label": "Contrôle endocrinien et immunitaire de l'organisme, Système digestif",
+        "description": "U1 Aide Soignant(e) M2 IMFS Montbéliard\n L'évaluation formative 3 vous est ici proposée pour progresser dans vos apprentissages. Vous aurez prochainement la possibilité de réaliser une quatrième évaluation formative pour les cours qui n'ont pas encore eu lieu à ce jour.",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODQTEzWTg0QnppQ2c/preview"
+    },
+    {
+        "id_pedagogic_item": 63,
+        "cip_speciality": 51.2699,
+        "label": "Contrôle nerveux, endocrinien, immunitaire de l'organisme et système rénal et élimination",
+        "description":"U1 Aide Soignant(e) M2 IMFS Belfort\n L'évaluation formative 3 vous est ici proposée pour progresser dans vos apprentissages. Vous aurez prochainement la possibilité de réaliser une quatrième évaluation formative pour les cours qui n'ont pas encore eu lieu à ce jour.",
+        "ELO": 836.25,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODNjVZQ3JjMkl5c0U/preview"
+    },
+    {
+        "id_pedagogic_item": 68,
+        "cip_speciality": 51.2699,
+        "label": "Fonction rénale et élimination, Organes des sens, Sémiologie en psychiatrie",
+        "description": "U1 Aide Soignant(e) M2 IMFS Montbéliard",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODa242TEoyTmtHdk0/preview"
+    },
+    {
+        "id_pedagogic_item": 70,
+        "cip_speciality": 51.2699,
+        "label": "Reproduction, digestion, perception par les 5 sens",
+        "description": "U1 Aide Soignant(e) M2 IMFS Belfort",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODV0hYV2N5Y1FJZ00/preview"
+    },
+    {
+        "id_pedagogic_item": 71,
+        "cip_speciality": 51.2699,
+        "label": "Douleur et sémiologie en psychiatrie",
+        "description": "U1 Aide Soignant(e) M2 IMFS Belfort",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODUEhtc2Y5dXFSRnc/preview"
+    },
+    {
+        "id_pedagogic_item": 78,
+        "cip_speciality": 51.2699,
+        "label": "Reproduction",
+        "description":"U1 Aide Soignant(e) M2 IMFS Montbéliard\n Voilà le dernier cours pour cette EV5.",
+        "ELO": 1000,
+        "item_format": "download/plain/ppt",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODMXNEWVNNV1d6NXc/preview"
+    },
+    {
+        "id_pedagogic_item": 48,
+        "cip_speciality": 27.0102,
+        "label": "Les Réels",
+        "description": "Licence 1 ENSAE de DAKAR (Sénégal)",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODWlVnc1kycU9JQ0k/preview"
+    },
+    {
+        "id_pedagogic_item": 49,
+        "cip_speciality": 11.0701,
+        "label": "Culture et Pratique de l'Informatique (1)",
+        "description": "U1 Culture et Pratique de l'Informatique",
+        "ELO": 658.1,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODTFpTc0o5cEVseGM/preview"
+    },
+    {
+        "id_pedagogic_item": 50,
+        "cip_speciality": 11.0701,
+        "label": "Culture et Pratique de l'Informatique (2)",
+        "description": "U1 Culture et Pratique de l'Informatique",
+        "ELO": 672.76,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODNk1VRFJ3OFVQdVk/preview"
+    },
+    {
+        "id_pedagogic_item": 51,
+        "cip_speciality": 11.0701,
+        "label": "Culture et Pratique de l'Informatique (3)",
+        "description": "U1 Culture et Pratique de l'Informatique",
+        "ELO": 439.14,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODQk9tcXV5TGRIZlE/preview"
+    },
+    {
+        "id_pedagogic_item": 52,
+        "cip_speciality": 11.0701,
+        "label": "Culture et Pratique de l'Informatique (4)",
+        "description": "U1 Culture et Pratique de l'Informatique",
+        "ELO": 517.75,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODTFFWSGpwQzNZbEU/preview"
+    },
+    {
+        "id_pedagogic_item": 53,
+        "cip_speciality": 11.0701,
+        "label": "Culture et Pratique de l'Informatique (5)",
+        "description": "U1 Culture et Pratique de l'Informatique",
+        "ELO": 592.19,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODT0oyWFBLTUZaZmM/preview"
+    },
+    {
+        "id_pedagogic_item": 54,
+        "cip_speciality": 23.0101,
+        "label": "Détermination",
+        "description": "U1 Info : Anglais Disciplinaire.\n C'est bien de toujours demander un exemple pour illustrer la réponse donnée.",
+        "ELO": 632.78,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODQ2JRdkczWkgya28/preview"
+    },
+    {
+        "id_pedagogic_item": 55,
+        "cip_speciality": 23.0101,
+        "label": "Some - Any",
+        "description": "U1 Info : Anglais Disciplinaire.\n Evitez, svp, les 2 questions de base sur \"some\" et \"any\" qui sont :-Pourquoi\"Some\" a-t-il une connotation positive ?-Pourquoi\"Any\" a-t-il une connotation négative ?Etpuis,c'estbiendetoujoursdemanderunexemplepourillustrerlaréponsedonnée.",
+        "ELO": 736.69,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODYXhPRHF1cWtkRUU/preview"
+    },
+    {
+        "id_pedagogic_item": 56,
+        "cip_speciality": 23.0101,
+        "label": "Dénombrable/Indénombrable",
+        "description": "U1 Info : Anglais Disciplinaire.\n C'estbiendetoujoursdemanderunexemplepourillustrerlaréponsedonnée.",
+        "ELO": 749.5,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODWWZlUWFxVWlqRXM/preview"
+    },
+    {
+        "id_pedagogic_item": 57,
+        "cip_speciality": 23.0101,
+        "label": "This/TheseThat/Those",
+        "description": "U1 Info : Anglais Disciplinaire.\n C'estbiendetoujoursdemanderunexemplepourillustrerlaréponsedonnée.",
+        "ELO": 771.02,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODTllfNUNwcXRCV2c/preview"
+    },
+    {
+        "id_pedagogic_item": 77,
+        "cip_speciality": 24.0101,
+        "label": "邏輯思考與應用",
+        "description": "請研讀PPT內容。研讀後，請回答關於本單元的5個問題。",
+        "ELO": 949.03,
+        "item_format": "download/powerpoint/doc",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODdFdzeHlZY2U5VGM/preview"
+    },
+    {
+        "id_pedagogic_item": 83,
+        "cip_speciality": 11.0102,
+        "label": "Optimisation Stochastique - 1) Problématique",
+        "description": " ",
+        "ELO": 955.09,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODTGpSaU5vaDVLN2M/preview"
+    },
+    {
+        "id_pedagogic_item": 84,
+        "cip_speciality": 11.0102,
+        "label": "Optimisation Stochastique - 2) Méthodes Stochastiques",
+        "description": " ",
+        "ELO": 929.31,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODYnFrcG1VanRDdVE/preview"
+    },
+    {
+        "id_pedagogic_item": 85,
+        "cip_speciality": 11.0102,
+        "label": "Évolution Artificielle - 1) Présentation",
+        "description": "",
+        "ELO": 823.47,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODNzdheVp5dTVyT28/preview"
+    },
+    {
+        "id_pedagogic_item": 86,
+        "cip_speciality": 11.0102,
+        "label": "Évolution Artificielle - 2) Méthodes de sélection et moteurs évolutionnaires",
+        "description": "",
+        "ELO": 929.01,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODeG9CenhoNFVmTlU/preview"
+    },
+    {
+        "id_pedagogic_item": 89,
+        "cip_speciality": 11.0102,
+        "label": "Évolution Artificielle - 3) Opérateurs Génétiques et Conclusion",
+        "description": "",
+        "ELO": 857.98,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODSVFVNXQ1NEVJVjg/preview"
+    },
+    {
+        "id_pedagogic_item": 90,
+        "cip_speciality": 11.0102,
+        "label": "Programmation Génétique - 1) Koza",
+        "description": "",
+        "ELO": 821.25,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODWWhKWm10OU16NDg/preview"
+    },
+    {
+        "id_pedagogic_item": 91,
+        "cip_speciality": 11.0102,
+        "label": "Programmation Génétique - 2) Introns, Bloat et Surapprentissage",
+        "description": "",
+        "ELO": 885.39,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODUF9zX2lvMDRqbjA/preview"
+    },
+    {
+        "id_pedagogic_item": 92,
+        "cip_speciality": 11.0102,
+        "label": "Programmation Génétique - 3) Modification de Structures",
+        "description": "",
+        "ELO": 816.71,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODSEUtQTlDTzF2ZFU/preview"
+    },
+    {
+        "id_pedagogic_item": 94,
+        "cip_speciality": 11.0102,
+        "label": "Programmation Génétique - 4) Compétitivité avec l'intelligence humaine effort calculatoire et conclusion",
+        "description": "http://www.genetic-programming.com/jkpdf/ieee2003intelligent.pdf",
+        "ELO": 775.18,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODV2lnelV3OEtxbVU/preview"
+    },
+    {
+        "id_pedagogic_item": 95,
+        "cip_speciality": 11.0102,
+        "label": "Optimisation Multi-Critères non Pareto",
+        "description": "",
+        "ELO": 824.09,
+        "item_format": "download/powerpoint/ppt",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODX0w0MHZRYndWZDA/preview"
+    },
+    {
+        "id_pedagogic_item": 96,
+        "cip_speciality": 11.0102,
+        "label": "Optimisation Multi-Critères Pareto / NSGA-II",
+        "description": "",
+        "ELO": 774.51,
+        "item_format": "download/powerpoint/ppt",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODRXNrdkNYODFPbkE/preview"
+    },
+    {
+        "id_pedagogic_item": 97,
+        "cip_speciality": 11.1003,
+        "label": "Responsible disclosure",
+        "description": " ",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODM2dtWFkzQkg5Nmc/preview"
+    },
+    {
+        "id_pedagogic_item": 98,
+        "cip_speciality": 11.1003,
+        "label": "The banking example",
+        "description": " ",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODTlFiNVFReGpqb1U/preview"
+    },
+    {
+        "id_pedagogic_item": 99,
+        "cip_speciality": 11.1003,
+        "label": "Web threats",
+        "description": " ",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODN1A0T1psOGI0MVk/preview"
+    },
+    {
+        "id_pedagogic_item": 100,
+        "cip_speciality": 11.1003,
+        "label": "Understanding vulnerabilities",
+        "description": " ",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODZXdPZkVrUHZtcDg/preview"
+    },
+    {
+        "id_pedagogic_item": 101,
+        "cip_speciality": 11.1003,
+        "label": "XSS",
+        "description": " ",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODajNNaUxOTW5FOVE/preview"
+    },
+    {
+        "id_pedagogic_item": 102,
+        "cip_speciality": 11.1003,
+        "label": "CSRF",
+        "description": " ",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODXzg3Y1ltTkpyR3c/preview"
+    },
+    {
+        "id_pedagogic_item": 103,
+        "cip_speciality": 11.1003,
+        "label": "Code audit of secure web applications",
+        "description": " ",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODTHBWTWVEeXdmZnc/preview"
+    },
+    {
+        "id_pedagogic_item": 104,
+        "cip_speciality": 11.1003,
+        "label": "Assessment of secure web applications",
+        "description": " ",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODZXg4RENwN1BXcUE/preview"
+    },
+    {
+        "id_pedagogic_item": 105,
+        "cip_speciality": 11.1003,
+        "label": "Building secure software",
+        "description": " ",
+        "ELO": 1000,
+        "item_format": "download/plain/pdf",
+        "link_src": "google emooc 1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODX0Jwb1pEb2Y3Rzg/preview"
+    },
+    {
+        "id_pedagogic_item": 107,
+        "cip_speciality": 13.0601,
+        "label": "Piloter l'innovation",
+        "description": "U2 IPM_RFA\n En utilisant ce que vous venez d'apprendre, posez une question aux autres participants. Essayez de poser des questions \"ouvertes\" plutôt que des questions \"fermées\". Une question \"fermée\" est une question qui appelle une réponse en quelques mots seulement, comme. \"Qu'est-ce qu'un projet de percée  ?\". Une question \"ouverte\" sera : \"Pour quelle(s) raison(s) est-il stratégiquement recommandé de mettre en place un pilotage de l'innovation via un projet de percée ?\"",
+        "ELO": 887.91,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODTHp6RGEyQzRXYms/preview"
+    },
+    {
+        "id_pedagogic_item": 109,
+        "cip_speciality": 11.0102,
+        "label": "Systèmes experts",
+        "description": "1)",
+        "ELO": 734.67,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODa1BPTTNxTGtQU0U/preview"
+    },
+    {
+        "id_pedagogic_item": 110,
+        "cip_speciality": 11.0102,
+        "label": "Théorie de l'information (entropie de Shannon)",
+        "description": "2)",
+        "ELO": 769.2,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODakhTWFdyX2d2cWM/preview"
+    },
+    {
+        "id_pedagogic_item": 111,
+        "cip_speciality": 11.0102,
+        "label": "Arbres de décision",
+        "description": "3)",
+        "ELO": 787.27,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODWUFyTDFCVVFCQ2c/preview"
+    },
+    {
+        "id_pedagogic_item": 112,
+        "cip_speciality": 11.0102,
+        "label": "Réseaux neuronaux",
+        "description": "4)",
+        "ELO": 838.11,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODc0stdmtIaHlBMTg/preview"
+    },
+    {
+        "id_pedagogic_item": 113,
+        "cip_speciality": 11.0102,
+        "label": "K-means et réseaux bayésiens",
+        "description": "5)",
+        "ELO": 792.44,
+        "item_format": "download/powerpoint/pptx",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODbTBvQU41Nzg2elk/preview"
+    },
+    {
+        "id_pedagogic_item": 114,
+        "cip_speciality": 13.0601,
+        "label": "MéthodedegestiondeprojetsIPM",
+        "description": "U2 IPM_RFA\n",
+        "ELO": 807.21,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODazFycHpuR0RKc3M/preview"
+    },
+    {
+        "id_pedagogic_item": 115,
+        "cip_speciality": 11.0102,
+        "label": "Algorithmes évolutionnaires / Darwinisme artificiel",
+        "description": "ENSTAINT21 - 1)",
+        "ELO": 919.83,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODWFpPc19xQzY3dWc/preview"
+    },
+    {
+        "id_pedagogic_item": 116,
+        "cip_speciality": 11.0102,
+        "label": "Optimisation multi-critères",
+        "description": "ENSTAINT21 - 2)",
+        "ELO": 779.57,
+        "item_format": "download/plain/pptx",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODMmdjU2hkZ0xqbTg/preview"
+    },
+    {
+        "id_pedagogic_item": 117,
+        "cip_speciality": 11.0102,
+        "label": "Optimisation par essaim et colonies de fourmis",
+        "description": "ENSTAINT21 - 3)",
+        "ELO": 788.83,
+        "item_format": "download/plain/pdf",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODTUstZDB3V1pmSDQ/preview"
+    },
+    {
+        "id_pedagogic_item": 118,
+        "cip_speciality": 11.0102,
+        "label": "Programmation génétique",
+        "description": "ENSTAINT21 - 4)",
+        "ELO": 771.37,
+        "item_format": "download/powerpoint/ppt",
+        "link_src": "googleemooc1",
+        "link_filename": "https://drive.google.com/file/d/0B4lJLs3n2EODMEdHUTIwNDdsc0E/preview"
+    },
+    {
+        "id_pedagogic_item": 119,
+        "cip_speciality": 11.0102,
+        "label": "Systèmes Complexes",
+        "description": "ENSTAINT21 - 5)",
+        "ELO": 768.36,
+        "item_format": "link/prezi",
+        "link_src": "googleemooc1",
+        "link_filename": "https://prezi.com/embed/98gzlhkhhdfu/"
+    },
+    {
+        "id_pedagogic_item": 121,
+        "cip_speciality": 11.0801,
+        "label": "Introduction aux réseaux",
+        "description": "",
+        "ELO": 1000,
+        "item_format": "link/prezi",
+        "link_src": "googleemooc1",
+        "link_filename": "https://prezi.com/embed/9p-mhsspb-hp/"
+    },
+    {
+        "id_pedagogic_item": 122,
+        "cip_speciality": 11.0801,
+        "label": "HTML/CSS (partie 1)",
+        "description": null,
+        "ELO": 1000,
+        "item_format": "link/prezi",
+        "link_src": "googleemooc1",
+        "link_filename": "https://prezi.com/embed/rmhgaosurden/"
+    },
+    {
+        "id_pedagogic_item": 123,
+        "cip_speciality": 11.0801,
+        "label": "HTML/CSS (partie 2)",
+        "description": null,
+        "ELO": 1000,
+        "item_format": "link/prezi",
+        "link_src": "googleemooc1",
+        "link_filename": "https://prezi.com/embed/tcbe2qmt2iux/"
+    },
+    {
+        "id_pedagogic_item": 124,
+        "cip_speciality": 11.0801,
+        "label": "Javascript (partie 1)",
+        "description": null,
+        "ELO": 1000,
+        "item_format": "link/prezi",
+        "link_src": "googleemooc1",
+        "link_filename": "https://prezi.com/embed/kp3gdwxevpj9/"
+    },
+    {
+        "id_pedagogic_item": 125,
+        "cip_speciality": 11.0801,
+        "label": "Javascript partie 2)",
+        "description": null,
+        "ELO": 1000,
+        "item_format": "link/prezi",
+        "link_src": "googleemooc1",
+        "link_filename": "https://prezi.com/embed/gqttcgte4hib/"
+    }
+]

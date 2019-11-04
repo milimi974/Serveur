@@ -1,0 +1,40 @@
+[
+	{
+		"id": 0,
+		"name": "POEMV1",
+		"surname": "PHPstandalone",
+		"username": "test101",
+		"email": "test101@mail.com",
+		"password": "test"
+	},
+	{
+		"id": 8,
+		"name": "Jack",
+		"surname": "professor",
+		"username": "proJack",
+		"favoured_langage_display": "fr",
+		"email": "jack@pro.com",
+		"password": "pro"
+	},
+	{
+		"name": "Stu",
+		"surname": "art",
+		"username": "stu1",
+		"email": "1@stu.com",
+		"password": "1"
+	},
+	{
+		"name": "Stu",
+		"surname": "art",
+		"username": "stu2",
+		"email": "2@stu.com",
+		"password": "2"
+	},
+	{
+		"name": "Stu",
+		"surname": "art",
+		"username": "stu3",
+		"email": "3@stu.com",
+		"password": "3"
+	}
+]

@@ -1,0 +1,42 @@
+{
+  "name": "speciality",
+  "plural": "specialities",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "cip_code": {
+      "type": "string",
+      "default": ""
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "id_domain": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "domain": {
+      "type": "belongsTo",
+      "model": "domain",
+      "foreignKey": "id_domain"
+    },
+    "lessons": {
+      "type": "hasMany",
+      "model": "lesson",
+      "foreignKey": "id_speciality"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,16 @@
+[
+  {"label": "bac", "value": 0},
+  {"label": "bac+1", "value": 1},
+  {"label": "bac+2", "value": 2},
+  {"label": "bac+3", "value": 3},
+  {"label": "bac+4", "value": 4},
+  {"label": "bac+5", "value": 5},
+  {"label": "1ere", "value": -1},
+  {"label": "2nde", "value": -2},
+  {"label": "3eme", "value": -3},
+  {"label": "4eme", "value": -4},
+  {"label": "5eme", "value": -5},
+  {"label": "6eme", "value": -6},
+  {"label": "cm2", "value": -7},
+  {"label": "cm1", "value": -8}
+]

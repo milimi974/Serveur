@@ -1,0 +1,29 @@
+{
+  "name": "lesson_group",
+  "plural": "lesson_groups",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lessons": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

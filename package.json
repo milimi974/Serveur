@@ -1,0 +1,48 @@
+{
+  "name": "poem",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node .",
+    "prod": "NODE_ENV='production' node .",
+    "pretest": "eslint .",
+    "posttest": "nsp check",
+    "test": "mocha",
+    "dbcreate": "./server/db_init.sh",
+    "dbmigrate": "node ./server/db_migrate.js",
+    "dbupdate": "node ./server/db_update.js",
+    "dbpopulate": "node ./server/db_populate.js"
+  },
+  "dependencies": {
+    "async": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^3.21.1",
+    "loopback": "^2.42.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^6.4.0",
+    "loopback-component-model-diagram": "^0.3.0",
+    "loopback-connector-postgresql": "^2.6.3",
+    "loopback-datasource-juggler": "^2.39.0",
+    "node-async": "0.0.1",
+    "pg": "^7.12.1",
+    "postgresql": "0.0.1",
+    "serve-favicon": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^2.13.1",
+    "eslint-plugin-react": "^7.16.0",
+    "mocha": "^6.2.1",
+    "nsp": "^2.2.0",
+    "supertest": "^1.2.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "poem"
+}

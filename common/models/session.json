@@ -1,0 +1,39 @@
+{
+  "name": "session",
+  "plural": "sessions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "students": {
+      "type": "number",
+      "required": true
+    },
+    "collaborators": {
+      "type": "number",
+      "required": true
+    },
+    "courses": {
+      "type": "number",
+      "required": true
+    },
+    "date_creation": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

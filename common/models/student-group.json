@@ -1,0 +1,29 @@
+{
+  "name": "student_group",
+  "plural": "student_groups",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "date_creation": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "students": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

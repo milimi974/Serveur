@@ -1,0 +1,51 @@
+{
+  "name": "submitted_answer",
+  "plural": "submitted_answers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "id_question": {
+      "type": "number",
+      "required": true
+    },
+    "id_author": {
+      "type": "number",
+      "required": true
+    },
+    "lessonId": {
+      "type": {
+        "required": true
+      }
+    }
+  },
+  "validations": [],
+  "relations": {
+    "question": {
+      "type": "belongsTo",
+      "model": "question",
+      "foreignKey": "id_question"
+    },
+    "evaluations": {
+      "type": "hasMany",
+      "model": "evaluation",
+      "foreignKey": "id_object"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

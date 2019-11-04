@@ -1,0 +1,33 @@
+{
+  "name": "student",
+  "plural": "students",
+  "base": "poem_user",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "elo_level": {
+      "type": "number",
+      "required": true
+    },
+    "lessons_attempted": {
+      "type": [
+        "any"
+      ],
+      "required": true
+    },
+    "pedagogic_goal": {
+      "type": "string",
+      "required": true
+    },
+    "pedagogic_level": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

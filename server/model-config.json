@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "question": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "poem_user": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "domain": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "speciality": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "ressource": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "teacher": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "student_group": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "teacher_group": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "lesson_group": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "comment": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "submitted_answer": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "evaluation": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "student": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "lesson": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "session": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "language": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "study_level": {
+    "dataSource": "poem",
+    "public": true
+  },
+  "lesson_participation": {
+    "dataSource": "poem",
+    "public": true
+  }
+}

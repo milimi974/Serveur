@@ -1,0 +1,35 @@
+{
+  "name": "teacher_group",
+  "plural": "teacher_groups",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "date_creation": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "teachers": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "has_teacher": {
+      "type": "hasMany",
+      "model": "teacher",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

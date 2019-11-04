@@ -1,0 +1,19 @@
+{
+  "name": "teacher",
+  "plural": "teachers",
+  "base": "poem_user",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "institution": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

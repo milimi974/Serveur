@@ -1,0 +1,35 @@
+{
+  "name": "evaluation",
+  "plural": "evaluations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "value": {
+      "type": "number",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "id_evaluator": {
+      "type": "number",
+      "required": true
+    },
+    "id_object": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

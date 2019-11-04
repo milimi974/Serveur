@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "poem": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://poemuser:shingeki@localhost/Poem",
+    "database": "Poem",
+    "password": "shingeki",
+    "name": "poem",
+    "user": "poemuser",
+    "connector": "postgresql"
+  }
+}

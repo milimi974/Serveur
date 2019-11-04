@@ -1,0 +1,33 @@
+{
+  "name": "domain",
+  "plural": "domains",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "cip_code": {
+      "type": "string",
+      "default": ""
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "specialities": {
+      "type": "hasMany",
+      "model": "speciality",
+      "foreignKey": "id_domain"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

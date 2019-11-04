@@ -1,0 +1,43 @@
+{
+  "name": "comment",
+  "plural": "comments",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "positive_appreciation": {
+      "type": "number",
+      "required": true
+    },
+    "negative_appreciation": {
+      "type": "number",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "type_object": {
+      "type": "string",
+      "required": true
+    },
+    "id_object": {
+      "type": "number",
+      "required": true
+    },
+    "id_author": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

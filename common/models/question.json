@@ -1,0 +1,55 @@
+{
+  "name": "question",
+  "plural": "questions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "serial",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "expected_answer": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "id_author": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "id_lesson": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "lesson": {
+      "type": "belongsTo",
+      "model": "lesson",
+      "foreignKey": "id_lesson"
+    },
+    "evaluations": {
+      "type": "hasMany",
+      "model": "evaluation",
+      "foreignKey": "id_object"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

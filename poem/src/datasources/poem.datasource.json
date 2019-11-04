@@ -1,0 +1,6 @@
+{
+  "name": "poem",
+  "connector": "memory",
+  "localStorage": "",
+  "file": ""
+}
