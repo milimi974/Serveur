@@ -1,23 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71dbb1d8-92c2-4421-b1a4-4e7763846789" name="Default Changelist" comment="" />
+    <list default="true" id="71dbb1d8-92c2-4421-b1a4-4e7763846789" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Test Serveur/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/poem-user.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/poem-user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/student.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/student.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/teacher.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/teacher.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/.mocharc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/.yo-rc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/DEVELOPING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/__tests__/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/__tests__/acceptance/home-page.acceptance.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/__tests__/acceptance/ping.controller.acceptance.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/__tests__/acceptance/test-helper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/application.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/controllers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/controllers/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/controllers/ping.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/datasources/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/datasources/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/datasources/poem.datasource.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/datasources/poem.datasource.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/migrate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/models/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/repositories/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/src/sequence.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poem/tsconfig.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Spmz0zTqnfnUMUN0B4l7dzFBls" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vue/Test/poem-frontend-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="ts.external.directory.path" value="D:\Documents\POEM\Test Serveur\poem\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
@@ -44,6 +93,14 @@
       <updated>1572269169336</updated>
       <workItem from="1572269170517" duration="1139000" />
       <workItem from="1572340969330" duration="8757000" />
+      <workItem from="1572970324585" duration="296000" />
+      <workItem from="1572970709390" duration="102000" />
+      <workItem from="1572971569731" duration="1018000" />
+      <workItem from="1573034022450" duration="5695000" />
+      <workItem from="1574086068324" duration="1558000" />
+      <workItem from="1574158978204" duration="6049000" />
+      <workItem from="1574239313817" duration="602000" />
+      <workItem from="1574673738000" duration="1533000" />
     </task>
     <servers />
   </component>
@@ -53,6 +110,19 @@
       <list>
         <option value="$PROJECT_DIR$/poem/index.js" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
 </project>

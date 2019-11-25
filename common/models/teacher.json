@@ -1,7 +1,7 @@
 {
   "name": "teacher",
   "plural": "teachers",
-  "base": "poem_user",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true

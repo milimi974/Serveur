@@ -1,7 +1,7 @@
 {
   "name": "poem_user",
   "plural": "poem_users",
-  "base": "User",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -34,6 +34,10 @@
     "favoured_langage_content": {
       "type": "string",
       "default": "en"
+    },
+    "username": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

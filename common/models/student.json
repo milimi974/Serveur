@@ -1,7 +1,6 @@
 {
   "name": "student",
   "plural": "students",
-  "base": "poem_user",
   "idInjection": true,
   "options": {
     "validateUpsert": true
