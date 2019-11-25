@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71dbb1d8-92c2-4421-b1a4-4e7763846789" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Test Serveur/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/config/applicationhost.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/poem-user.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/poem-user.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/student.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/student.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/teacher.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/teacher.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/.mocharc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/.prettierignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/.yo-rc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/DEVELOPING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/__tests__/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/__tests__/acceptance/home-page.acceptance.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/__tests__/acceptance/ping.controller.acceptance.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/__tests__/acceptance/test-helper.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/application.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/controllers/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/controllers/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/controllers/ping.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/datasources/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/datasources/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/datasources/poem.datasource.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/datasources/poem.datasource.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/migrate.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/models/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/repositories/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/src/sequence.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poem/tsconfig.json" beforeDir="false" />
-    </list>
+    <list default="true" id="71dbb1d8-92c2-4421-b1a4-4e7763846789" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +55,16 @@
       <workItem from="1574086068324" duration="1558000" />
       <workItem from="1574158978204" duration="6049000" />
       <workItem from="1574239313817" duration="602000" />
-      <workItem from="1574673738000" duration="1533000" />
+      <workItem from="1574673738000" duration="1818000" />
     </task>
+    <task id="LOCAL-00001" summary="Update database and authorizations">
+      <created>1574677617085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574677617085</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,5 +87,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update database and authorizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update database and authorizations" />
   </component>
 </project>
