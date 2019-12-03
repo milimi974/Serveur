@@ -49,7 +49,6 @@ module.exports = function (Poemuser) {
               callback(new Error('Could not find language \'' + user.favoured_langage_display + '\''), null);
               return;
             }
-
             console.log("\t language OK!");
             callback(null, { "token": token.id, "username": user.username, "userId": user.id, "language": lang.code });
           });
@@ -74,7 +73,7 @@ module.exports = function (Poemuser) {
    * @param {Function(Error, string)} callback
    */
 
-  Poemuser.registerViaCSDC = function (email, username, name, surname, favoured_langage_display, favoured_langage_content, password, callback) {
+  Poemuser.registerViaCSDC = function (email, username, name, surname,password, status, callback) {
     username = username || name + '.' + surname;
 
     registerToCSDCdatabase(function (err) {
@@ -85,9 +84,10 @@ module.exports = function (Poemuser) {
         username: username,
         name: name,
         surname: surname,
-        favoured_langage_display: favoured_langage_display,
-        favoured_langage_content: favoured_langage_content,
-        password: password
+        /*favoured_langage_display: favoured_langage_display,
+        favoured_langage_content: favoured_langage_content,*/
+        password: password,
+        status: status
       }, function (err, user) {
         if (err) callback(err, null);
 
