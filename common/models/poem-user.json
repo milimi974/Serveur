@@ -29,15 +29,11 @@
     },
     "favoured_langage_display": {
       "type": "string",
-      "default": "en"
+      "default": "fr"
     },
     "favoured_langage_content": {
       "type": "string",
-      "default": "en"
-    },
-    "username": {
-      "type": "string",
-      "required": true
+      "default": "fr"
     },
     "status": {
       "type": "string",
@@ -53,12 +49,6 @@
     }
   },
   "acls": [
-    {
-      "accessType": "READ",
-      "principalType": "ROLE",
-      "principalId": "$owner",
-      "permission": "ALLOW"
-    },
     {
       "accessType": "EXECUTE",
       "principalType": "ROLE",
@@ -96,12 +86,6 @@
       "principalId": "$owner",
       "permission": "ALLOW",
       "property": "__count__lessonsParticipations"
-    },
-    {
-      "principalType": "ROLE",
-      "principalId": "$owner",
-      "permission": "ALLOW",
-      "property": "__findById__poemUser"
     }
   ],
   "methods": {
@@ -149,7 +133,7 @@
         {
           "arg": "username",
           "type": "string",
-          "required": true,
+          "required": false,
           "description": "The user nickname"
         },
         {
@@ -185,8 +169,8 @@
         {
           "arg": "status",
           "type": "string",
-          "required": true,
-          "description": "Status of the user (teacher, student)"
+          "required": false,
+          "description": "Teacher or student"
         }
       ],
       "returns": [

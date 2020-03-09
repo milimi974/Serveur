@@ -6,11 +6,11 @@
   "poem": {
     "host": "localhost",
     "port": 5432,
-    "url": "postgres://poemuser:synva@localhost/Poem",
+    "url": "postgres://poemuser:shi@localhost/Poem",
     "database": "Poem",
-    "password": "synva",
+    "password": "shi",
     "name": "poem",
-    "user": "synva",
+    "user": "poemuser",
     "connector": "postgresql"
   }
 }

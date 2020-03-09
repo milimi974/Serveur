@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71dbb1d8-92c2-4421-b1a4-4e7763846789" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Test Serveur.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test Serveur.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/models/poem-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/poem-user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/models/poem-user.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/poem-user.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/teacher.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/teacher.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/populate/answers_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/populate/answers_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/populate/poem_users.js" beforeDir="false" afterPath="$PROJECT_DIR$/populate/poem_users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/populate/poem_users.json" beforeDir="false" afterPath="$PROJECT_DIR$/populate/poem_users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/populate/questions_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/populate/questions_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/datasources.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/datasources.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/queries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testpost.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/testpost.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +147,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update database and authorizations" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="530" y="168" key="RollbackChangesDialog" timestamp="1583757247898">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="530" y="168" key="RollbackChangesDialog/1440.0.1920.1200/0.0.1440.900@0.0.1440.900" timestamp="1583757247898" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1575462511248">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
