@@ -87,7 +87,7 @@ module.exports = function (Poemuser) {
         /*favoured_langage_display: favoured_langage_display,
         favoured_langage_content: favoured_langage_content,*/
         password: password,
-        status: status
+        /*status: status*/
       }, function (err, user) {
         if (err) callback(err, null);
 

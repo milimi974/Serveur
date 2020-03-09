@@ -41,7 +41,7 @@
     },
     "status": {
       "type": "string",
-      "required": true
+      "required": false
     }
   },
   "validations": [],
@@ -96,6 +96,12 @@
       "principalId": "$owner",
       "permission": "ALLOW",
       "property": "__count__lessonsParticipations"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "__findById__poemUser"
     }
   ],
   "methods": {

@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71dbb1d8-92c2-4421-b1a4-4e7763846789" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Test Serveur.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test Serveur.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/models/poem-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/poem-user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/models/poem-user.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/poem-user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/teacher.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/teacher.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/populate/answers_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/populate/answers_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/populate/poem_users.js" beforeDir="false" afterPath="$PROJECT_DIR$/populate/poem_users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/populate/poem_users.json" beforeDir="false" afterPath="$PROJECT_DIR$/populate/poem_users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/populate/questions_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/populate/questions_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/datasources.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/datasources.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/queries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testpost.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/testpost.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +30,16 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Spmz0zTqnfnUMUN0B4l7dzFBls" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -30,18 +48,18 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\Documents\POEM\Test Serveur\poem\node_modules\typescript\lib" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -66,7 +84,23 @@
       <workItem from="1574239313817" duration="602000" />
       <workItem from="1574673738000" duration="4222000" />
       <workItem from="1574756666569" duration="8057000" />
-      <workItem from="1575278442769" duration="14753000" />
+      <workItem from="1575278442769" duration="15370000" />
+      <workItem from="1575456076268" duration="689000" />
+      <workItem from="1575458789753" duration="1646000" />
+      <workItem from="1575465684698" duration="3116000" />
+      <workItem from="1575984602166" duration="1137000" />
+      <workItem from="1577098422842" duration="139000" />
+      <workItem from="1577531665929" duration="165000" />
+      <workItem from="1577791592813" duration="597000" />
+      <workItem from="1578321995810" duration="3485000" />
+      <workItem from="1579004346115" duration="5744000" />
+      <workItem from="1580219924599" duration="1240000" />
+      <workItem from="1581414861926" duration="4892000" />
+      <workItem from="1581851316048" duration="4408000" />
+      <workItem from="1582409261264" duration="210000" />
+      <workItem from="1583325116190" duration="7389000" />
+      <workItem from="1583515346767" duration="160000" />
+      <workItem from="1583748876437" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="Update database and authorizations">
       <created>1574677617085</created>
@@ -82,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574677897049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update database and authorizations">
+      <created>1575389916972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575389916972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,5 +155,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update database and authorizations" />
     <option name="LAST_COMMIT_MESSAGE" value="Update database and authorizations" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="229" y="60" key="SettingsEditor" timestamp="1575462511248">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1575462511248" />
+    <state x="2205" y="524" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579515957852">
+      <screen x="1440" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2205" y="524" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.1920.1200/0.0.1440.900@1440.0.1920.1200" timestamp="1579515957852" />
+    <state x="385" y="153" key="search.everywhere.popup" timestamp="1580219940439">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="385" y="153" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1580219940439" />
   </component>
 </project>

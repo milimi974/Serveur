@@ -5,7 +5,8 @@
 		"surname": "PHPstandalone",
 		"username": "test101",
 		"email": "test101@mail.com",
-		"password": "test"
+		"password": "test",
+		"status": "teacher"
 	},
 	{
 		"id": 8,
@@ -14,27 +15,31 @@
 		"username": "proJack",
 		"favoured_langage_display": "fr",
 		"email": "jack@pro.com",
-		"password": "pro"
+		"password": "pro",
+		"status": "teacher"
 	},
 	{
 		"name": "Stu",
 		"surname": "art",
 		"username": "stu1",
 		"email": "1@stu.com",
-		"password": "1"
+		"password": "1",
+		"status": "student"
 	},
 	{
 		"name": "Stu",
 		"surname": "art",
 		"username": "stu2",
 		"email": "2@stu.com",
-		"password": "2"
+		"password": "2",
+		"status": "student"
 	},
 	{
 		"name": "Stu",
 		"surname": "art",
 		"username": "stu3",
 		"email": "3@stu.com",
-		"password": "3"
+		"password": "3",
+		"status": "student"
 	}
 ]
