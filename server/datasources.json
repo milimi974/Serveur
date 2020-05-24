@@ -6,9 +6,9 @@
   "poem": {
     "host": "localhost",
     "port": 5432,
-    "url": "postgres://poemuser:shi@localhost/poem",
+    "url": "postgres://poemuser:shingeki@localhost/poem",
     "database": "poem",
-    "password": "shi",
+    "password": "shingeki",
     "name": "poem",
     "user": "poemuser",
     "connector": "postgresql"
