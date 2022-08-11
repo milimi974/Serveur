@@ -24,7 +24,7 @@
     "loopback-cli": "^5.1.0",
     "loopback-component-explorer": "^6.4.0",
     "loopback-component-model-diagram": "^0.3.0",
-    "loopback-connector-postgresql": "^2.6.3",
+    "loopback-connector-postgresql": "^5.5.1",
     "loopback-datasource-juggler": "^2.39.0",
     "node-async": "0.0.1",
     "pg": "^7.12.1",
