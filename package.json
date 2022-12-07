@@ -39,7 +39,7 @@
     "eslint-plugin-react": "^7.16.0",
     "mocha": "^6.2.2",
     "nsp": "^2.2.0",
-    "supertest": "^1.2.0"
+    "supertest": "^6.3.2"
   },
   "repository": {
     "type": "",
